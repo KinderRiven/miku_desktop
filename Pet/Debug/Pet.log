@@ -1,0 +1,29 @@
+﻿Build started 2015/9/23 20:01:44.
+     1>Project "F:\KinderRiven\Pet\Pet\Pet.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing pet.h...
+         Qt: Untested Windows version 10.0 detected!
+         Uic'ing pet.ui...
+         Rcc'ing pet.qrc...
+         Qt: Untested Windows version 10.0 detected!
+     1>RCC : warning : No resources in 'F:\KinderRiven\Pet\Pet\pet.qrc'.
+         
+       ClCompile:
+         F:\VS2013NEW\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtNetwork /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_pet.cpp main.cpp pet.cpp
+         moc_pet.cpp
+         main.cpp
+         pet.cpp
+         Generating Code...
+         F:\VS2013NEW\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtNetwork /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_pet.cpp
+         qrc_pet.cpp
+       Link:
+         F:\VS2013NEW\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KinderRiven\Pet\Win32\Debug\\Pet.exe" /NOLOGO /LIBPATH:F:\QT\QT5.4.2\5.4\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Multimediad.lib Qt5MultimediaWidgetsd.lib Qt5Networkd.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\KinderRiven\Pet\Win32\Debug\Pet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KinderRiven\Pet\Win32\Debug\Pet.lib" /MACHINE:X86 /SAFESEH Debug\moc_pet.obj
+         Debug\qrc_pet.obj
+         Debug\main.obj
+         Debug\pet.obj
+     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "F:\KinderRiven\Pet\Pet\Pet.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.45
